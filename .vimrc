@@ -40,6 +40,7 @@ set noswapfile              " don't keep swp files either
 set nowrap                  " do not wrap lines
 set nowritebackup           " do not keep a backup while working
 set number                  " line numbers
+set relativenumber
 set paste
 set pastetoggle=<F4>
 set report=0                " tell us about changes
@@ -57,7 +58,7 @@ set smarttab
 set softtabstop=2           " yep, two
 set splitbelow
 set tabpagemax=50           " open 50 tabs max
-set tabstop=4
+set tabstop=2
 set ttimeoutlen=50          " Make Esc work faster
 set viminfo='1000,f1,:100,@100,/20
 set virtualedit=block       " allow virtual edit in visual block ..
