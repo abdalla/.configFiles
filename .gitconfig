@@ -1,0 +1,7 @@
+[user]
+	name = Carlos Abdalla
+	email = abdalla@msdev.com.br
+[alias]
+	lg = log --all --oneline --decorate --graph
+[core]
+	editor = atom -n -w
